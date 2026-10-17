@@ -53,7 +53,7 @@ store.on("error", () => {
 // Express-Sessions and with Cookies :
 const sessionOptions = {
     store,
-    secret: process.env.ATLASDB_URL,
+    secret: process.env.SECRET,
     resave: false,
     saveUninitialized: true,
     cookie: {
