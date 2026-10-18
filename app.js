@@ -68,7 +68,6 @@ app.use(flash());
 // Use Passport :
 app.use(passport.initialize());
 app.use(passport.session());
-possport.use(new LocalStrategy(User.authenticate()));
 
 // use static serialize and deserialize of model for passport session support.
 passport.serializeUser(User.serializeUser());
