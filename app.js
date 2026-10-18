@@ -11,7 +11,6 @@ const ExpressError = require("./utilities/ExpressError.js");
 const session = require("express-session");
 const { MongoStore } = require('connect-mongo');
 const flash = require("connect-flash");
-const possport = require("passport");
 const LocalStrategy = require("passport-local");
 const User = require("./models/user.js");
 
